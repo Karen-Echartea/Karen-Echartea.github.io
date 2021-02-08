@@ -1,0 +1,35 @@
+.contenido{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.cont{
+	background-color: #66CDAA;
+	width: auto;
+}
+
+body{
+	width: 85%;
+	min-width: 850px;
+	margin: auto;
+}
+
+header{
+	background-image: url("imagen/fondo.jpg");
+	display: flex;
+}
+
+.centrado{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: xx-large;
+
+}
+
+
+input [type="text"], , input[type="email"],  {
+	width: 150px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CUESTIONARIO</title>
+</head>
+<body background="imagen/fondo1.png" bgcolor="FFCECB">
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<div class="cont">
+	<header>
+		<div class="contenido">
+			<center><img src="imagen/fondo.jpg" width="1278px" ></center>
+			<div class="centrado"><b>CUESTIONARIO</b></div>
+		</div>	
+
+	</header>
+
+	<form action="" nethod="POST">
+		<br>
+		<div>
+			<label for="nombre"><b>Nombre:</b> </label>
+			<input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+		</div>
+
+		<div>
+			<label for="email"><b>Email: </b></label>
+			<input type="email" id="correo" name="nombre" placeholder="Introduce tu correo">
+		</div>
+		<br>
+		<br>
+		<br>
+		<div>
+			<label><b>1. </b> ¿De que colores estan en la bandera de México?:</label><br>
+			<select name="colores">
+				<option value="0">--Seleccione--</option>
+				<option value="1">Verde, azul, amarillo</option>
+				<option value="2">Rojo, azul, verde</option>
+				<option value="3">Verde, blanco, rojo</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label><b>2. </b> ¿Cuándo acabo la II Guerra Mundial?</label><br>
+			<input type="date" name="fecha">
+		</div>
+		<br>
+		<div>
+			<label><b>3. </b> En que año se reconocio como pandemia al virus SARS-COV2?</label><br>
+			<input type="checkbox" name="Intereses" value="1">2005
+			<input type="checkbox" name="Intereses" value="2">2020
+			<input type="checkbox" name="Intereses" value="3">2022
+		</div><br>
+		<div>
+			<label><b>4. </b> Si el 50 es el 100%, ¿cuánto es el 90%?</label><br>
+			<input type="number" name="Hijos" min="40" value="40" max="50">
+		</div>
+		<br>
+		<div>
+			<label><b>5. </b> Escribe con tus propias palabras el significado de biología.</label><br>
+			<textarea name="Descripción"></textarea>
+		</div>
+		<br>
+		<div>
+			<label><b>6. </b> ¿Qué país tiene forma de bota?</label><br>
+			<select name="paises">
+				<option value="0">--Seleccione--</option>
+				<option value="1">Reino unido</option>
+				<option value="2">México</option>
+				<option value="3">China</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label><b>7. </b> Describe que es para tí un proyecto.</label><br>
+			<textarea name="Descripción"></textarea>
+		</div>
+		<br>
+		<div>
+			<label><b>8. </b> ¿Cuántas patas tiene una araña?</label><br>
+			<input type="number" name="Hijos" min="2" value="2" max="10">
+		</div>
+		<br>
+		<div>
+			<label><b>9. </b> ¿Cuál es el nombre de la reyna de Inglaterra?</label><br>
+			<select name="paises">
+				<option value="0">--Seleccione--</option>
+				<option value="1">Letizia</option>
+				<option value="2">Isabel II</option>
+				<option value="3">Diana</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label><b>10. </b> ¿Cuál es el nombre de la lengua oficial en china?</label><br>
+			<input type="checkbox" name="Intereses" value="1">Mandarín
+			<input type="checkbox" name="Intereses" value="2">Castellano
+			<input type="checkbox" name="Intereses" value="3">Inglés
+		</div><br>
+		<div>
+			<input type="submit" name="" value="Enviar">
+		</div>
+		<br>
+		<br>
+	</div>
+	</form>
+</body>
+</html>
