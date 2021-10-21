@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA DEL IMC</h1>
+        <p><strong>Nombre: </strong>Ana Karen Echartea Juárez</p>
+    </header>
+    <div id="all">
+        <div>
+            <fieldset>
+                <legend>
+                    <strong>Datos</strong>
+                </legend> 
+                <!--Peso-->
+                <label for="">Peso (kg): </label>
+                <input type="number" name="" id="peso" >
+                    <!--Estatura-->
+                    <br>
+                    <br>
+                <label for="">Estatura (m):</label>
+                <input type="number" name="" id="altura">
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <button id=botton1 onclick="Calcular();  ">Calcular</button>
+            <button id=botton onclick="Limpiar();  ">Limpiar</button>
+        </div>
+
+
+        <div id="imcResultado"></div>
+        <div id="valoracion"></div>
+        <div id="img"></div>
+        <script src="script.js">
+        </script>
+    </div>
+</body>
+</html>

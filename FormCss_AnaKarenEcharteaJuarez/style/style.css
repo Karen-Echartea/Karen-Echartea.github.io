@@ -1,0 +1,125 @@
+.fiel-first{
+    background-color: #94d2bd;
+    border: 5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/836/174/small/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg);
+}
+
+.fiel-second{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.fiel-second .labell{
+    font-weight: bolder;
+}
+.fiel-third{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif   
+}
+
+.fiel-third .label1{
+    font-weight: bolder;
+}
+
+.boton{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.field-for{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif   
+}
+
+.field-for .label2{
+    font-weight: bolder;
+}
+
+.field-five{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif  
+}
+
+.field-five .label3{
+    font-weight: bolder;
+}
+
+.fiel-six{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.fiel-six .label4{
+    font-weight: bolder;
+}
+
+.field-seven{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.field-seven .label5{
+    font-weight: bolder;
+}
+
+.fiel-eight{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.fiel-eight .label6{
+    font-weight: bolder;
+}
+
+.fiel-nine{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+
+.fiel-nine .label7{
+    font-weight: bolder;
+}
+
+.fiel-ten{
+    background-color: #48cae4;
+    border: 1.5px solid black;
+    max-width: 70%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.botones{
+    background-color: blanchedalmond;
+    text-align: center;
+}

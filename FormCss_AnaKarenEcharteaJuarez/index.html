@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale?1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <form>
+        <fieldset class="fiel-first">
+            <h1>Survey for Product X</h1>
+            <p>Tu correo se registrará cuando envíes este formulario.</p>
+        </fieldset>
+        <br>
+        <fieldset class="fiel-second">
+            <div>
+                <label class="labell" for="nombre">Nombre: </label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Tu respuesta" required>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="fiel-third">
+            <div>
+                <label class="label1" for="opciones"><n>Cuál de los libros de Stephen King prefieres?</n> </label><br>
+                <img src="img/it.jpg" alt="Imagen libro" width="10%"><input type="radio" name="opciones" id="opciones" value="IT"><label for=""> IT</label>
+                <img src="img/resplandor.jpg" alt="Imagen libro" width="10%"><input type="radio" name="opciones" id="opciones" value="Resplandor"><label for=""> El resplandor</label>
+                <img src="img/misery.jpg" alt="Imagen libro" width="10%"><input type="radio" name="opciones" id="opciones" value="Misary"><label for=""> Misery</label>
+            </div>
+        </fieldset>
+        <br>
+        <div class="boton">
+            <a href="pagina1.html"><input type="button" value="Siguiente"></a>
+        </div>
+    </form>
+    </body>

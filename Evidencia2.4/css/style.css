@@ -1,0 +1,37 @@
+h1{
+    
+    text-align: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(98,102,235,1) 25%, rgba(227,169,242,1) 44%, rgba(214,154,227,1) 62%, rgba(186,121,193,1) 73%, rgba(255,136,160,0.958420868347339) 100%);
+}
+
+fieldset{
+    width: 500px;
+    background-color: lightcyan;
+}
+legend{
+    color: black;
+    background-color: cadetblue;
+}
+#botton1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#botton{
+    height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+#all{
+    width: 800px;
+    padding: 20px;
+}

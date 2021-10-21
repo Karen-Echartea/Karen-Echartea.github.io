@@ -1,0 +1,224 @@
+
+body{
+	width: 10%;
+	min-width: 900px;
+	margin: auto;
+}
+
+.contenido{
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+header{
+	background-color: black;
+	display: flex;
+	color: #FFFFFF;
+}
+
+header section div{
+	text-align: right;
+}
+
+header section div p{
+	text-align: right;
+}
+main img{
+	border-radius: 20px;
+	width: 20%;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+h1{
+	size: 200px;
+	text-align: center;
+}
+
+.main-register{
+	padding: 10px 50px 20px;
+}
+
+.div-register{
+	padding: 10px 85px 21px;
+}
+nav{
+	background: rgb(255,240,60);
+    background: linear-gradient(90deg, rgba(255,240,60,1) 0%, rgba(255,240,60,1) 23%, rgba(251,251,251,1) 95%);
+	padding: 1px;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;	
+}
+
+nav ul li a{
+	float: left;
+	text-decoration: none;
+	margin-right: 10px;	
+	color: black;
+	margin-left: 20px;
+}
+
+nav ul li a:hover{
+	color: var(--color-principal);
+}
+
+
+.principal{
+	display: flex;
+}
+
+main{
+	width: 60%;
+	text-align: justify;
+}
+
+main a{
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+	font-size: small;
+}
+
+aside article a{
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+	font-size: small;
+}
+
+
+main, aside{
+	padding: 20px;
+}
+
+
+aside{
+	width: 30%;
+}
+
+aside .art1 a{
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+	font-size: small;
+}
+
+aside .art1 h2{
+	color: red;
+}
+
+aside .art1 h5{
+	color: grey;
+}
+
+.img1{
+	float: left;
+	width: 20%;
+}
+
+p{
+	text-align: justify;
+}
+
+footer{
+	background-color: black;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+
+footer .sec2 p{
+	text-align: left;
+	font-size: small;
+}
+
+footer section h6{
+	text-align: right;
+}
+
+.red{
+	color: #FF0000;
+}
+
+.grey{
+	color: grey;
+}
+
+input [type="radio"], input[type="email"], input[type="nombre"]{
+	width: 150px;
+}
+
+input{
+	border-radius: 5px;
+}
+
+label{
+	display: inline-block;
+	width: 80px;
+}
+
+@media (min-width: 0px) and (max-width:899px){
+	h1, a{
+		font-size: 20px;
+	}
+
+	body, header, .principal, .footer{
+		width: auto;
+	}
+
+	.principal, main, aside{
+		display: block;
+	}
+
+	aside{
+		display: block;
+	}
+
+
+	nav{
+		display: block;
+		
+	}
+}
+
+
+@media (max-width:599px){
+	.principal{
+		padding: 0px;
+	}
+
+	h1,a{
+		font-size: 20px;
+	}
+
+	a{
+		border-radius: 0px;
+		list-style: 30px;
+		text-align: center;
+		margin-bottom: 2px;
+	}
+
+	header{
+		width: auto;
+		height: auto;
+		overflow: hidden;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	nav{
+		display: block;
+	}
+
+	.contenido .inicio{
+		display: none;
+	}
+}
+
