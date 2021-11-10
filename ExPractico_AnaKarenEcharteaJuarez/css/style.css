@@ -109,6 +109,12 @@ section ul li{
     margin-top: 5px;
     min-height: 900px;
 }
+#Seccion4{
+    background-color: #a8dadc;
+    border-radius: 5px;
+    margin-top: 5px;
+    min-height: 500px;
+}
 footer{
     background-color: #cddafd;
     height: auto;
